@@ -88,9 +88,9 @@ function logKey(e) {
     }
     playerCoordinates = "row" + playerY + "cell" + playerX;
     if (document.getElementById(playerCoordinates).innerText === "F") {
-        let node2 = document.getElementById("result");
-        let resultnode = document.createTextNode("Congrats, you made it out!!" );
-        node2.appendChild(resultnode);
+        let result = document.getElementById("result");
+        let resultnode = document.createTextNode("Congrats, you made it out!!");
+        result.appendChild(resultnode);
     }
 
     position(playerX, playerY);
