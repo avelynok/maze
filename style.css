@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    background-color: azure;
+} 
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    color: red;
+}
+
+p{
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 20px;
+    width: 800px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#box { 
+    width: 22px; 
+    height: 22px; 
+    position: absolute; 
+    background: red; 
+    margin: 0;
+    padding: 0;
+    opacity: 0.6;
+}
+
+.maze {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+button {
+    padding: 20px 50px;
+    background: transparent;
+    text-shadow: 1px 1px 1px #202020;
+    font-size: 18pt;
+    color: black;
+    margin: 10px;;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 5px solid red;
+    box-shadow: 0 0 10px white;
+    background-color: white;
+    color: red;
+}
+
+#result {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    color: red;
+    width: 50%;
+}
